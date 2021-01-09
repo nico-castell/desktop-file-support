@@ -13,17 +13,12 @@ Lack of proper scoping in syntax highlighting.
 
 ## Release Notes
 
-### 1.0.0
+### 1.0.1
 
-Initial release of Deskop File support.
+### Changed
 
-* Include syntax hihglighting.
-* Include snippets.
-
-Working on:
-
-* Offering suggestions
-* .desktop icon
+1. Regex to capture comments
+2. Regex to capture strings
 
 ## License
 

@@ -9,6 +9,13 @@ All notable changes to the "desktop-file-support" extension will be documented i
 1. File extension icon for .desktop files.
 2. Auto-suggestions in the editor.
 
+## Version 1.0.1 - Jan 9, 2021
+
+### Changed
+
+1. Regex to capture comments
+2. Regex to capture strings
+
 ## Version 1.0.0 - Jan 9, 2021
 
 ### Added
