@@ -10,31 +10,22 @@
         "Programming Languages"
     ],
     "contributes": {
-        "languages": [
-            {
-                "id": "desktop",
-                "aliases": [
-                    "Desktop",
-                    "desktop"
-                ],
-                "extensions": [
-                    ".desktop"
-                ],
-                "configuration": "./language-configuration.json"
-            }
-        ],
-        "grammars": [
-            {
-                "language": "desktop",
-                "scopeName": "source.desktop",
-                "path": "./syntaxes/desktop.tmLanguage.json"
-            }
-        ],
-        "snippets": [
-            {
-                "language": "desktop",
-                "path": "./snippets/snippets.json"
-            }
-        ]
+        "languages": [{
+            "id": "desktop",
+            "aliases": [ "Desktop", "desktop" ],
+            "firstLine": "[Desktop Entry]",
+            "mimetypes": [ "text/plain" ],
+            "extensions": [ ".desktop" ],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "desktop",
+            "scopeName": "source.desktop",
+            "path": "./syntaxes/desktop.tmLanguage.json"
+        }],
+        "snippets": [{
+            "language": "desktop",
+            "path": "./snippets/snippets.json"
+        }]
     }
 }
