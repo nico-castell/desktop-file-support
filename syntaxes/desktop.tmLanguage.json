@@ -1,0 +1,95 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "Desktop",
+	"patterns": [
+		{
+			"include": "#layout"
+		},
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#inCommands"
+		},
+		{
+			"include": "#values"
+		},
+		{
+			"include": "#inCategories"
+		}
+	],
+	"repository": {
+		"layout": {
+			"patterns": [
+				{
+					"name": "constant",
+					"begin": "^\\[Desktop",
+					"end": "\\]"
+				},
+				{
+					"name": "comment",
+					"begin": "#",
+					"end": "$"
+				}
+			]
+		},
+		"keywords": {
+			"patterns": [
+				{
+					"name": "keyword",
+					"match": "^Name|^Comment|^GenericName|^Exec|^Icon|^Type|^StartupNotify|^StartupWMClass|^Categories|^MimeType|^Actions|^Keywords|^X-Desktop-File-Install-Version|^Terminal"
+				},
+				{
+					"name": "constant.language",
+					"match": "(?<!^)\\[.+\\](?==)"
+				}
+			]
+		},
+		"values": {
+			"patterns": [
+				{
+					"name": "keyword.operator",
+					"match": "="
+				},
+				{
+					"name": "variable",
+					"match": "true|false"
+				},
+				{
+					"name": "constant.numeric",
+					"match": "[0-9]+\\.[0-9]+|[0-9]+"
+				},
+				{
+					"name": "string",
+					"match": "\\B/\\S+\\b"
+				}
+			]
+		},
+		"inCommands": {
+			"patterns": [
+				{
+					"name": "variable.parameter",
+					"match": "(?<=^Exec.*)(?<!\\S)--\\S+(?!\\S)"
+				},
+				{
+					"name": "variable",
+					"match": "\\%."
+				}
+			]
+		},
+		"inCategories": {
+			"patterns": [
+				{
+					"name": "variable",
+					"begin": "(?<=^Categories.*)",
+					"match": "AudioVideo|Audio|Video|Development|Education|Game|Graphics|Network|Office|Science|Settings|System|Utility"
+				},
+				{
+					"name": "string",
+					"match": "(?<=^Categories.*)[^=;]+"
+				}
+			]
+		}
+	},
+	"scopeName": "source.desktop"
+}

@@ -1,0 +1,7 @@
+{
+	"Standard new window": {
+		"prefix": "newwin",
+		"body": "--no-sandbox --new-window %F",
+		"description": "Standard instructions for a new window"
+	}
+}
