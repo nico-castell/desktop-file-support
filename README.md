@@ -22,7 +22,7 @@ Lack of proper scoping in syntax highlighting.
 
 ## License
 
-This repository is available under the [MIT License](https://www.mit.edu/~amini/LICENSE.md).
+This repository is available under the [MIT License](LICENSE).
 
 > Live long, and prosper  
 > Spock
