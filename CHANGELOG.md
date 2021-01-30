@@ -1,24 +1,27 @@
-# Change Log
+# Change log
 
-All notable changes to the "desktop-file-support" extension will be documented in this file.
+All significant changes to **Desktop File Support** will be documented here
+
+1. [Unreleased](#Unreleased)
+1. [Pre Releases](#Pre-Releases)
 
 ## Unreleased
 
-### 1.1.0
+### Version 1.0.0
+First official release
 
-1. File extension icon for .desktop files.
-2. Auto-suggestions in the editor.
+---
 
-## Version 1.0.1 - Jan 9, 2021
+## Pre-Releases
+
+## Version 0.0.2 - *2021-01-09*
 
 ### Changed
-
 1. Regex to capture comments
 2. Regex to capture strings
 
-## Version 1.0.0 - Jan 9, 2021
+## Version 0.0.1 - *2021-01-09*
 
 ### Added
-
 1. Syntax Highlighting.
 2. Snippets.

@@ -1,26 +1,17 @@
 # Desktop File Support
 
-This extension allows VS Code to highlight the syntax of a .desktop file, mush like in gedit.
+This extension allows VS Code to highlight the syntax of a .desktop file,
+much like in gedit.
 
-## Features
-
+##  Features
 1. Syntax Highlighting for .desktop files
-2. Snippets for .desktop files
+1. Snippets for .desktop files
 
-## Known Issues
+##  Known Issues
+1. Lack of proper scoping in syntax highlighting.
+1. The editor will highlight plain text as if it was .desktop.
 
-Lack of proper scoping in syntax highlighting.
-
-## Release Notes
-
-### 1.0.1
-
-### Changed
-
-1. Regex to capture comments
-2. Regex to capture strings
-
-## License
+##  License
 
 This repository is available under the [MIT License](LICENSE).
 

@@ -1,8 +1,9 @@
 {
+    "publisher": "nico-castell",
     "name": "linux-desktop-file",
     "displayName": "Linux Desktop File support",
     "description": "Add support for .desktop files in linux",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "engines": {
         "vscode": "^1.52.0"
     },
@@ -13,8 +14,7 @@
         "languages": [{
             "id": "desktop",
             "aliases": [ "Desktop", "desktop" ],
-            "firstLine": "[Desktop Entry]",
-            "mimetypes": [ "text/plain" ],
+            "firstLine": "^[Desktop Entry]",
             "extensions": [ ".desktop" ],
             "configuration": "./language-configuration.json"
         }],
