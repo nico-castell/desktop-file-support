@@ -1,6 +1,9 @@
 {
     "publisher": "nico-castell",
     "name": "linux-desktop-file",
+    "repository": {
+        "url": "https://github.com/nico-castell/desktop-file-support"
+    },
     "displayName": "Linux Desktop File support",
     "description": "Add support for .desktop files in linux",
     "version": "0.0.2",
