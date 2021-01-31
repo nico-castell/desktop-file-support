@@ -5,9 +5,7 @@
             "label": "Package the extension",
             "type": "process",
             "command": "/usr/bin/vsce",
-            "args": [
-                "package", "--baseContentUrl", "--baseImagesUrl"
-            ],
+            "args": [ "package" ],
             "detail": "Package the extension into a .vsix file.",
             "problemMatcher": [],
             "options": {
