@@ -14,14 +14,18 @@ First official release
 
 ## Pre-Releases
 
-## Version 0.0.2 - *2021-01-09*
+### Version 0.0.3 - *2021-01-30*
+#### Added
+Images in the documentation.
+#### Fixed
+Plain text files are no longer interpreted as .desktop.
 
+## Version 0.0.2 - *2021-01-09*
 ### Changed
 1. Regex to capture comments
 2. Regex to capture strings
 
 ## Version 0.0.1 - *2021-01-09*
-
 ### Added
 1. Syntax Highlighting.
 2. Snippets.

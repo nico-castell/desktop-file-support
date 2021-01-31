@@ -6,16 +6,21 @@
 This extension allows VS Code to highlight the syntax of a .desktop file,
 much like in gedit.
 
+<!-- <p align="center"> -->
+  <img width="586" height="390" src="https://github.com/nico-castell/desktop-file-support/blob/main/assets/screenshot.png">
+<!-- </p> -->
+
 ##  Features
 1. Syntax Highlighting for .desktop files
-1. Snippets for .desktop files
+1. Snippet for .desktop files: A standard way to tell gnome to open a new
+   window.
+    ~~~
+    Exec=/usr/share/code/code newwin # expands to:
+    Exec=/usr/share/code/code --no-sandbox --new-window %F
+    ~~~
 
 ##  Known Issues
-1. Lack of proper scoping in syntax highlighting.
-1. The editor will highlight plain text as if it was .desktop.
-
-##  License
-This repository is available under the [MIT License](LICENSE).
+1. The scoping of the syntax highlighting could be improved.
 
 > Live long, and prosper  
 > Spock
