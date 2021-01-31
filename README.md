@@ -18,7 +18,8 @@
 This extension allows VS Code to highlight the syntax of a .desktop file, much like in gedit.
 
 <!-- <p align="center"> -->
-  <img width="586" height="440" src="https://raw.githubusercontent.com/nico-castell/desktop-file-support/main/assets/screenshot.png" alt="logo">
+  <!-- <img width="625" height="440" src="assets/screenshot.png" alt="logo"> -->
+  <img width="625" height="440" src="https://raw.githubusercontent.com/nico-castell/desktop-file-support/main/assets/screenshot.png" alt="logo">
 <!-- </p> -->
 
 ##  Features

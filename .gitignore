@@ -29,3 +29,6 @@ Backup*/
 # Ignore workspace dependant files and folders
 node_modules
 *.vsix
+
+# Ignore the file for the screenshot
+code.desktop
