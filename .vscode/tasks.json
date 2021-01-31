@@ -3,14 +3,9 @@
     "tasks": [
         {
             "label": "Package the extension",
-            "type": "process",
-            "command": "/usr/bin/vsce",
-            "args": [ "package" ],
+            "type": "shell",
             "detail": "Package the extension into a .vsix file.",
             "problemMatcher": [],
-            "options": {
-                "cwd": "${workspaceFolder}",
-            },
             "presentation": {
                 "echo": true,
                 "reveal": "always",
@@ -18,6 +13,33 @@
                 "panel": "shared",
                 "showReuseMessage": true,
                 "clear": true
+            },
+            "windows": {
+                "command": "&",
+                "args": [ "vsce", "package" ],
+                "options": {
+                    "cwd": "${workspaceFolder}",
+                    "shell": {
+                        "executable": "C:/Program Files/PowerShell/7/pwsh.exe",
+                        "args": [
+                            "-nol",
+                            "-i",
+                            "-c"
+                        ]
+                    }
+                }
+            },
+            "linux": {
+                "command": "/usr/bin/vsce",
+                "options": {
+                    "cwd": "${workspaceFolder}",
+                    "shell": {
+                        "executable": "/bin/bash",
+                        "args": [
+                            "-c"
+                        ]
+                    }
+                }
             }
         }
     ]
