@@ -12,6 +12,8 @@
   <img alt="GitHub" src="https://img.shields.io/github/license/nico-castell/desktop-file-support?color=yellow&label=License">
 </p>
 
+<blockquote align="center">Live long, and prosper. - Spock</blockquote>
+
 This extension allows VS Code to highlight the syntax of a .desktop file,
 much like in gedit.
 
@@ -30,6 +32,3 @@ much like in gedit.
 
 ##  Known Issues
 1. The scoping of the syntax highlighting could be improved.
-
-> Live long, and prosper  
-> Spock
