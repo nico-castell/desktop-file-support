@@ -7,7 +7,11 @@ All significant changes to **Desktop File Support** will be documented here
 
 ## Released
 
-### Version 0.0.5
+### Version [0.0.6](https://github.com/nico-castell/desktop-file-support/releases/tags/0.0.6) - *2021-01-31*
+#### Added
+Now the README's example image shows more of what the extension does.
+
+### Version 0.0.5 - *2021-01-31*
 This is the first official release of this extension.
 #### Added
 The extension finally has an icon.
@@ -16,18 +20,22 @@ The extension finally has an icon.
 
 ## Pre-Releases
 
-### Version 0.0.3 - *2021-01-30*
+### Version [0.0.4](https://github.com/nico-castell/desktop-file-support/releases/tags/0.0.4) - *2021-01-30*
+#### Fixed
+Images in the marketplace now display correctly.
+
+### Version 0.0.3 [YANKED] - *2021-01-30*
 #### Added
 Images in the documentation.
 #### Fixed
 Plain text files are no longer interpreted as .desktop.
 
-## Version 0.0.2 - *2021-01-09*
-### Changed
+### Version 0.0.2 - *2021-01-09*
+#### Changed
 1. Regex to capture comments
 2. Regex to capture strings
 
-## Version 0.0.1 - *2021-01-09*
-### Added
+### Version 0.0.1 - *2021-01-09*
+#### Added
 1. Syntax Highlighting.
 2. Snippets.
