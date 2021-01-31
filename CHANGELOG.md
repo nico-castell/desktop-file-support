@@ -2,13 +2,15 @@
 
 All significant changes to **Desktop File Support** will be documented here
 
-1. [Unreleased](#Unreleased)
+1. [Released](#released)
 1. [Pre Releases](#Pre-Releases)
 
-## Unreleased
+## Released
 
-### Version 1.0.0
-First official release
+### Version 0.0.5
+This is the first official release of this extension.
+#### Added
+The extension finally has an icon.
 
 ---
 
