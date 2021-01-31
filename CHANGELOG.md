@@ -7,6 +7,11 @@ All significant changes to **Desktop File Support** will be documented here
 
 ## Released
 
+### Version [0.0.8](https://github.com/nico-castell/desktop-file-support/releases/tags/0.0.8) - *2021-01-31*
+#### Added
+Introduction of folding regions through `#region` and `#endregion`, although
+this isn't officialy part of *.desktop* files. It should be useful to you.
+
 ### Version [0.0.7](https://github.com/nico-castell/desktop-file-support/releases/tags/0.0.7) - *2021-01-31*
 #### Added
 Updated the documentation.
