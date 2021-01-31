@@ -7,6 +7,10 @@ All significant changes to **Desktop File Support** will be documented here
 
 ## Released
 
+### Version [0.0.7](https://github.com/nico-castell/desktop-file-support/releases/tags/0.0.7) - *2021-01-31*
+#### Added
+Updated the documentation.
+
 ### Version [0.0.6](https://github.com/nico-castell/desktop-file-support/releases/tags/0.0.6) - *2021-01-31*
 #### Added
 Now the README's example image shows more of what the extension does.

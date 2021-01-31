@@ -15,30 +15,21 @@
                 "clear": true
             },
             "windows": {
-                "command": "&",
-                "args": [ "vsce", "package" ],
+                "command": "C:/Windows/system32/cmd.exe",
+                "args": [
+                    "/Q",
+                    "/C",
+                    "vsce package"
+                ],
                 "options": {
                     "cwd": "${workspaceFolder}",
-                    "shell": {
-                        "executable": "C:/Program Files/PowerShell/7/pwsh.exe",
-                        "args": [
-                            "-nol",
-                            "-i",
-                            "-c"
-                        ]
-                    }
                 }
             },
             "linux": {
                 "command": "/usr/bin/vsce",
+                "args": [ "package" ],
                 "options": {
                     "cwd": "${workspaceFolder}",
-                    "shell": {
-                        "executable": "/bin/bash",
-                        "args": [
-                            "-c"
-                        ]
-                    }
                 }
             }
         }
