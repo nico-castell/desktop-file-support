@@ -2,8 +2,12 @@
 
 All significant changes to **Desktop File Support** will be documented here
 
+1. [Unreleased](#unreleased)
 1. [Released](#released)
 1. [Pre Releases](#Pre-Releases)
+
+## Unreleased
+1. Fixed the sizing of the icon in the README.
 
 ## Released
 
