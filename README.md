@@ -6,10 +6,10 @@
 </h1>
 
 <p align="center">
-  <img alt="Visual Studio Marketplace Version" src="https://img.shields.io/visual-studio-marketplace/v/nico-castell.linux-desktop-file?color=yellow&label=Version">
-  <img alt="GitHub commits since latest release (by date)" src="https://img.shields.io/github/commits-since/nico-castell/desktop-file-support/latest?color=yellow&label=Commits%20since%20last%20release">
-  <img alt="GitHub" src="https://img.shields.io/github/license/nico-castell/desktop-file-support?color=yellow&label=License">
-  <img alt="Lines of code" src="https://img.shields.io/tokei/lines/github/nico-castell/desktop-file-support?color=yellow&label=Lines%20of%20code">
+  <img alt="Visual Studio Marketplace Version" src="https://img.shields.io/visual-studio-marketplace/v/nico-castell.linux-desktop-file?color=yellow&label=Version&style=flat-square">
+  <img alt="GitHub commits since latest release (by date)" src="https://img.shields.io/github/commits-since/nico-castell/desktop-file-support/latest?color=yellow&label=Commits%20since%20last%20release&style=flat-square">
+  <img alt="GitHub" src="https://img.shields.io/github/license/nico-castell/desktop-file-support?color=yellow&label=License&style=flat-square">
+  <img alt="Lines of code" src="https://img.shields.io/tokei/lines/github/nico-castell/desktop-file-support?color=yellow&label=Lines%20of%20code&style=flat-square">
   <br><b>Live long, and prosper.<br>- Spock</b>
 </p>
 
