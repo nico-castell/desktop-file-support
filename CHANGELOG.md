@@ -7,6 +7,15 @@ All significant changes to **Desktop File Support** will be documented here
 
 ## Released
 
+### Version [0.0.8](https://github.com/nico-castell/desktop-file-support/releases/tags/0.0.8) - *2021-01-31*
+#### Added
+1. Introduction of folding regions through `#region` and `#endregion`, although this isn't officialy part of *.desktop* files. It should be useful to you.
+1. Additionally, snippets for `#region` and `#endregion` were added.
+
+### Version [0.0.7](https://github.com/nico-castell/desktop-file-support/releases/tags/0.0.7) - *2021-01-31*
+#### Added
+Updated the documentation.
+
 ### Version [0.0.6](https://github.com/nico-castell/desktop-file-support/releases/tags/0.0.6) - *2021-01-31*
 #### Added
 Now the README's example image shows more of what the extension does.
@@ -20,7 +29,7 @@ The extension finally has an icon.
 
 ## Pre-Releases
 
-### Version [0.0.4](https://github.com/nico-castell/desktop-file-support/releases/tags/0.0.4) - *2021-01-30*
+### Version 0.0.4 - *2021-01-30*
 #### Fixed
 Images in the marketplace now display correctly.
 

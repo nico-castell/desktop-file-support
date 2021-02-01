@@ -15,11 +15,11 @@
 
 <blockquote align="center">Live long, and prosper. - Spock</blockquote>
 
-This extension allows VS Code to highlight the syntax of a .desktop file,
-much like in gedit.
+This extension allows VS Code to highlight the syntax of a .desktop file, much like in gedit.
 
 <!-- <p align="center"> -->
-  <img width="586" height="440" src="https://raw.githubusercontent.com/nico-castell/desktop-file-support/main/assets/screenshot.png" alt="logo">
+  <!-- <img width="625" height="440" src="assets/screenshot.png" alt="logo"> -->
+  <img width="625" height="440" src="https://raw.githubusercontent.com/nico-castell/desktop-file-support/main/assets/screenshot.png" alt="logo">
 <!-- </p> -->
 
 ##  Features
@@ -30,6 +30,7 @@ much like in gedit.
     Exec=/usr/share/code/code newwin # expands to:
     Exec=/usr/share/code/code --no-sandbox --new-window %F
     ~~~
+1. Folding regions through the use of `#region` and `#endregion`. This is not officially part of *.desktop* files, but it should help you.
 
 ##  Known Issues
 1. The scoping of the syntax highlighting could be improved.

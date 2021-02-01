@@ -3,5 +3,15 @@
 		"prefix": "newwin",
 		"body": "--no-sandbox --new-window %F",
 		"description": "Standard instructions for a new window"
+	},
+	"Start a region": {
+		"prefix": "region",
+		"description": "Start a folding region",
+		"body": "#region"
+	},
+	"End a region": {
+		"prefix": "endregion",
+		"description": "End a folding region",
+		"body": "#endregion"
 	}
 }
