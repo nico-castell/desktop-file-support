@@ -11,20 +11,20 @@ All significant changes to **Desktop File Support** will be documented here
 
 ## Released
 
-### Version [0.0.9](https://github.com/nico-castell/desktop-file-support/releases/tags/0.0.9) - *2021-02-01*
+### Version [0.0.9](https://github.com/nico-castell/desktop-file-support/releases/tag/0.0.9) - *2021-02-01*
 #### Fixed
 Unspecified file extensions will no longer open as *.desktop*. Unless, as it has always been, the first line is `[Desktop Entry]`.
 
-### Version [0.0.8](https://github.com/nico-castell/desktop-file-support/releases/tags/0.0.8) - *2021-01-31*
+### Version [0.0.8](https://github.com/nico-castell/desktop-file-support/releases/tag/0.0.8) - *2021-01-31*
 #### Added
 1. Introduction of folding regions through `#region` and `#endregion`, although this isn't officialy part of *.desktop* files. It should be useful to you.
 1. Additionally, snippets for `#region` and `#endregion` were added.
 
-### Version [0.0.7](https://github.com/nico-castell/desktop-file-support/releases/tags/0.0.7) - *2021-01-31*
+### Version [0.0.7](https://github.com/nico-castell/desktop-file-support/releases/tag/0.0.7) - *2021-01-31*
 #### Added
 Updated the documentation.
 
-### Version [0.0.6](https://github.com/nico-castell/desktop-file-support/releases/tags/0.0.6) - *2021-01-31*
+### Version [0.0.6](https://github.com/nico-castell/desktop-file-support/releases/tag/0.0.6) - *2021-01-31*
 #### Added
 Now the README's example image shows more of what the extension does.
 
