@@ -7,6 +7,7 @@ All significant changes to **Desktop File Support** will be documented here
 1. [Pre Releases](#Pre-Releases)
 
 ## Unreleased
+1. Added support for theme index files in GNOME.
 1. Fixed the sizing of the icon in the README.
 
 ## Released
