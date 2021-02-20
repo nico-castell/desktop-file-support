@@ -6,7 +6,7 @@ All significant changes to **Desktop File Support** will be documented here
 1. [Released](#released)
 1. [Pre Releases](#Pre-Releases)
 
-### Version [0.0.10](https://github.com/nico-castell/desktop-file-support/releases/tag/0.0.10) - *2021-02-19*
+### Version [0.0.10 - 0.0.12](https://github.com/nico-castell/desktop-file-support/releases/tag/0.0.12) - *2021-02-19*
 #### Added
 1. Added support for theme index files in GNOME.
 #### Changed
