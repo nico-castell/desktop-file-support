@@ -13,23 +13,28 @@
   <br><b>Live long, and prosper.<br>- Spock</b>
 </p>
 
-
+## Normal .desktop file
 This extension allows VS Code to highlight the syntax of a .desktop file, much like in gedit.
 
-<!-- <p align="center"> -->
-  <!-- <img width="625" height="440" src="assets/screenshot.png" alt="logo"> -->
-  <img width="625" height="440" src="https://raw.githubusercontent.com/nico-castell/desktop-file-support/main/assets/screenshot.png" alt="logo">
-<!-- </p> -->
+<!-- <img width="625" height="440" src="assets/code-screenshot.png" alt="logo"> -->
+<img width="625" height="440" src="https://raw.githubusercontent.com/nico-castell/desktop-file-support/main/assets/code-screenshot.png" alt="logo">
+
+## Theme Index Files
+Additionally, this extension highlights `[X-GNOME-Metetheme]` and it's keys
+
+<!-- <img width="625" height="303" src="assets/theme-screenshot.png"> -->
+<img width="625" height="303" src="https://raw.githubusercontent.com/nico-castell/desktop-file-support/main/assets/theme-screenshot.png">
+<!-- This GNOME theme is found at: https://www.gnome-look.org/p/1253385/ -->
 
 ##  Features
-1. Syntax Highlighting for .desktop files
-1. Snippet for .desktop files: A standard way to tell gnome to open a new
-   window.
-    ~~~
+1. Syntax Highlighting for .desktop files.
+2. Extra syntax highlighting for [Theme Index files](https://people.gnome.org/~shaunm/admin-guide/themes-17.html).
+3. Snippet for .desktop files: A standard way to tell gnome to open a new window.
+    ```
     Exec=/usr/share/code/code newwin # expands to:
     Exec=/usr/share/code/code --no-sandbox --new-window %F
-    ~~~
-1. Folding regions through the use of `#region` and `#endregion`. This is not officially part of *.desktop* files, but it should help you.
+    ```
+4. Folding regions through the use of `#region` and `#endregion`. This is not officially part of *.desktop* files, but it should help you.
 
 ##  Known Issues
 1. The scoping of the syntax highlighting could be improved.

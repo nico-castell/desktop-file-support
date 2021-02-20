@@ -30,5 +30,6 @@ Backup*/
 node_modules
 *.vsix
 
-# Ignore the file for the screenshot
+# Ignore the files for the screenshot
 code.desktop
+index.theme
