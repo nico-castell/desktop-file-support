@@ -2,18 +2,17 @@
 
 name: Deploy to marketplaces
 
-on: [release]
+on: [workflow_dispatch]
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@2.3.4
+      - uses: actions/checkout@v2.3.4
 
-      - uses: action/setup-node@2.1.5
+      - uses: actions/setup-node@v2.1.5
         with:
           node-version: 12
-      - run: npm ci
 
       - name: Publish to Open VSX Registry
         uses: HaaLeo/publish-vscode-extension@v0
