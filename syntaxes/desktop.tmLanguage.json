@@ -44,7 +44,7 @@
 			"patterns": [
 				{
 					"name": "keyword",
-					"match": "^Name|^Comment|^GenericName|^Exec|^Icon(?![A-z])|^Type|^StartupNotify|^StartupWMClass|^Categories|^MimeType|^Actions|^Keywords|^X-Desktop-File-Install-Version|^Terminal"
+					"match": "^Type|^Version|^Name|^GenericName|^NoDisplay|^Comment|^Icon|^Hidden|^OnlyShowIn|^NotShowIn|^DBusActivatable|^TryExec|^Exec|^Path|^Terminal|^Actions|^MimeType|^Categories|^Implements|^Keywords|^StartupNotify|^StartupWMClass|^URL|^PrefersNonDefaultGPU"
 				},
 				{
 					"name": "constant.language",
