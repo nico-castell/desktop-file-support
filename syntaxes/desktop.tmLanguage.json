@@ -36,7 +36,8 @@
 				},
 				{
 					"name": "comment",
-					"match": "^\\[X-GNOME-Metatheme\\]$"
+					"begin": "^\\[X-[A-z 0-9 -]*",
+					"end": "\\]"
 				}
 			]
 		},
@@ -53,6 +54,10 @@
 				{
 					"name": "keyword",
 					"match": "^GtkTheme|^MetacityTheme|^IconTheme|^ButtonLayout|^ApplicationFont|^Encoding"
+				},
+				{
+					"name": "keyword.other",
+					"match": "^X-[A-z 0-9 -]*"
 				}
 			]
 		},
