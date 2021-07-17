@@ -6,6 +6,12 @@ All significant changes to **Desktop File Support** will be documented here
 1. [Released](#released)
 1. [Pre Releases](#Pre-Releases)
 
+### Version [0.0.14 - 0.0.15](https://gihtub.com/nico-castell/desktop-file-support/releases/tag/0.0.15) - *2021-07-17*
+#### Added
+- Support for missing keys (credit to @Luxcium).
+- Support for extending the format by using `X-` as per the
+	[specification](https://specifications.freedesktop.org/desktop-entry-spec/desktop-entry-spec-latest.html#extending).
+
 ### Version [0.0.13](https://github.com/nico-castell/desktop-file-support/releases/tag/0.0.13) - *2021-02-24*
 #### Added
 - Link to .desktop file specifications in the README.
