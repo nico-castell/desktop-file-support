@@ -22,8 +22,13 @@
 		"layout": {
 			"patterns": [
 				{
-					"name": "comment",
+					"name": "markup.heading",
 					"begin": "^\\[Desktop",
+					"end": "\\]"
+				},
+				{
+					"name": "markup.heading",
+					"begin": "^\\[X-\\w*",
 					"end": "\\]"
 				},
 				{
@@ -31,13 +36,8 @@
 					"match": "^\\s*#.*"
 				},
 				{
-					"name": "comment",
+					"name": "strong",
 					"match": ";"
-				},
-				{
-					"name": "comment",
-					"begin": "^\\[X-[A-z 0-9 -]*",
-					"end": "\\]"
 				}
 			]
 		},
@@ -45,19 +45,19 @@
 			"patterns": [
 				{
 					"name": "keyword",
-					"match": "^Type|^Version|^Name|^GenericName|^NoDisplay|^Comment|^Icon|^Hidden|^OnlyShowIn|^NotShowIn|^DBusActivatable|^TryExec|^Exec|^Path|^Terminal|^Actions|^MimeType|^Categories|^Implements|^Keywords|^StartupNotify|^StartupWMClass|^URL|^PrefersNonDefaultGPU"
-				},
-				{
-					"name": "constant.language",
-					"match": "(?<!^)\\[.+\\](?==)"
-				},
-				{
-					"name": "keyword",
-					"match": "^GtkTheme|^MetacityTheme|^IconTheme|^ButtonLayout|^ApplicationFont|^Encoding"
+					"match": "^Type\\b|^Version\\b|^Name\\b|^GenericName\\b|^NoDisplay\\b|^Comment\\b|^Icon\\b|^Hidden\\b|^OnlyShowIn\\b|^NotShowIn\\b|^DBusActivatable\\b|^TryExec\\b|^Exec\\b|^Path\\b|^Terminal\\b|^Actions\\b|^MimeType\\b|^Categories\\b|^Implements\\b|^Keywords\\b|^StartupNotify\\b|^StartupWMClass\\b|^URL\\b|^PrefersNonDefaultGPU\\b|^Encoding\\b"
 				},
 				{
 					"name": "keyword.other",
 					"match": "^X-[A-z 0-9 -]*"
+				},
+				{
+					"name": "constant.language",
+					"match": "(?<!^)\\[.+\\]"
+				},
+				{
+					"name": "keyword",
+					"match": "^GtkTheme\\b|^MetacityTheme\\b|^IconTheme\\b|^CursorTheme\\b|^ButtonLayout\\b|^ApplicationFont\\b"
 				}
 			]
 		},
@@ -68,11 +68,11 @@
 					"match": "="
 				},
 				{
-					"name": "variable",
-					"match": "true|false"
+					"name": "variable.other",
+					"match": "\\btrue\\b|\\bfalse\\b"
 				},
 				{
-					"name": "constant.numeric",
+					"name": "variable.other",
 					"match": "[0-9]+\\.[0-9]+|[0-9]+"
 				}
 			]
@@ -81,15 +81,11 @@
 			"patterns": [
 				{
 					"name": "variable.parameter",
-					"match": "(?<=^Exec.*)(?<!\\S)--\\S+(?!\\S)"
+					"match": "(?<=^Exec.*\\s)-+\\S+"
 				},
 				{
-					"name": "variable",
-					"match": "\\%."
-				},
-				{
-					"name": "string",
-					"match": "\\B/\\S+\\b"
+					"name": "variable.language",
+					"match": "(?<=^Exec.*)\\s\\%[fFuUick]\\s"
 				},
 				{
 					"name": "string",
@@ -100,13 +96,8 @@
 		"inCategories": {
 			"patterns": [
 				{
-					"name": "variable",
-					"begin": "(?<=^Categories.*)",
-					"match": "AudioVideo|Audio|Video|Development|Education|Game|Graphics|Network|Office|Science|Settings|System|Utility"
-				},
-				{
-					"name": "string",
-					"match": "(?<=^Categories.*)[^=;]+"
+					"name": "markup.bold",
+					"match": "(?<=^Categories.*)AudioVideo|(?<=^Categories.*)Audio|(?<=^Categories.*)Video|(?<=^Categories.*)Development|(?<=^Categories.*)Education|(?<=^Categories.*)Game|(?<=^Categories.*)Graphics|(?<=^Categories.*)Network|(?<=^Categories.*)Office|(?<=^Categories.*)Science|(?<=^Categories.*)Settings|(?<=^Categories.*)System|(?<=^Categories.*)Utility"
 				}
 			]
 		}

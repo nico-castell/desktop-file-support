@@ -1,9 +1,4 @@
 {
-	"Standard new window": {
-		"prefix": "newwin",
-		"body": "--no-sandbox --new-window",
-		"description": "Standard instructions for a new window"
-	},
 	"Start a region": {
 		"prefix": "region",
 		"description": "Start a folding region",
