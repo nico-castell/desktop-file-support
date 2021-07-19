@@ -7,7 +7,7 @@
 	"displayName": "Linux Desktop File support",
 	"description": "Add support for .desktop files in linux",
 	"icon": "assets/extension_icon.png",
-	"version": "0.0.16",
+	"version": "0.0.17",
 	"engines": {
 		"vscode": "^1.52.0"
 	},

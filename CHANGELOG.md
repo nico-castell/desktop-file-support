@@ -3,6 +3,7 @@
 All significant changes to **Desktop File Support** will be documented here
 
 - [Released](#released)
+	- [Version 0.0.17 - *2021-07-29*](#version-0017---2021-07-29)
 	- [Version 0.0.16 - *2021-07-29*](#version-0016---2021-07-29)
 	- [Version 0.0.14 - 0.0.15 - *2021-07-17*](#version-0014---0015---2021-07-17)
 	- [Version 0.0.13 - *2021-02-24*](#version-0013---2021-02-24)
@@ -19,6 +20,12 @@ All significant changes to **Desktop File Support** will be documented here
 	- [Version 0.0.1 - *2021-01-09*](#version-001---2021-01-09)
 
 ## Released
+### Version [0.0.17](https://github.com/nico-castell/desktop-file-support/releases/tag/0.0.17) - *2021-07-29*
+Nothing special here, just a pair of bug fixes.
+#### Fixed
+- Numbers outside of the proper context (such as in URLs) are no longer highlighted.
+- The `=` equals operator is no longer highlighted outside of the proper context.
+
 ### Version [0.0.16](https://github.com/nico-castell/desktop-file-support/releases/tag/0.0.16) - *2021-07-29*
 This release remaps some of the scoping of the syntax highlighting, while fixing some bad behaviour.
 #### Added
