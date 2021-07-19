@@ -2,11 +2,8 @@
 
 All significant changes to **Desktop File Support** will be documented here
 
-- [Unreleased](#unreleased)
-	- [Added](#added)
-	- [Changed](#changed)
-	- [Fixed](#fixed)
 - [Released](#released)
+	- [Version 0.0.16 - *2021-07-29*](#version-0016---2021-07-29)
 	- [Version 0.0.14 - 0.0.15 - *2021-07-17*](#version-0014---0015---2021-07-17)
 	- [Version 0.0.13 - *2021-02-24*](#version-0013---2021-02-24)
 	- [Version 0.0.10 - 0.0.12 - *2021-02-19*](#version-0010---0012---2021-02-19)
@@ -21,14 +18,15 @@ All significant changes to **Desktop File Support** will be documented here
 	- [Version 0.0.2 - *2021-01-09*](#version-002---2021-01-09)
 	- [Version 0.0.1 - *2021-01-09*](#version-001---2021-01-09)
 
-## Unreleased
-### Added
+## Released
+### Version [0.0.16](https://github.com/nico-castell/desktop-file-support/releases/tag/0.0.16) - *2021-07-29*
+This release remaps some of the scoping of the syntax highlighting, while fixing some bad behaviour.
+#### Added
 - Files that end with the `.theme` extension are now opened as desktop entries.
 - The `CursorTheme` key was added for *index.theme* files.
-### Changed
+#### Changed
 - `[Desktop Entry]` lines are now mapped to `markup.heading` so comments don't make them harder to
 	see.
-- Short arguments (`-l`, `-s`) to commands in the `Exec` key are now highlighted.
 - Typos like writing `Names` instead of `Name` now cause the entire key not to be highlighted,
 	making typos easier to spot.
 - `;` semi-colons are now scoped as `strong` (it's up to the theme to highlight them).
@@ -37,13 +35,13 @@ All significant changes to **Desktop File Support** will be documented here
 	[specification](https://specifications.freedesktop.org/desktop-entry-spec/latest/ar01s07.html)
 - Changed the textmate scope of freedesktop recognized categories for the `Categories` key. They're
 	now scoped to `markup.bold`.
-### Fixed
+#### Fixed
+- Short arguments (`-l`, `-s`) to commands in the `Exec` key are now highlighted.
 - When you specify the language of keys such as `Name` and `Comment` by using `[]`, you no longer
 	need to type the `=` operator to have syntax highlighting.
 - Removed patterns that weren't useful.
 - The categories recognized by freedesktop are no longer highlighted outside the `Categories` key.
 
-## Released
 ### Version [0.0.14 - 0.0.15](https://gihtub.com/nico-castell/desktop-file-support/releases/tag/0.0.15) - *2021-07-17*
 #### Added
 - Support for missing keys (credit to @Luxcium).
