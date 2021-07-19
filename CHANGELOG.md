@@ -2,10 +2,48 @@
 
 All significant changes to **Desktop File Support** will be documented here
 
-1. [Unreleased](#unreleased)
-1. [Released](#released)
-1. [Pre Releases](#Pre-Releases)
+- [Unreleased](#unreleased)
+	- [Added](#added)
+	- [Changed](#changed)
+	- [Fixed](#fixed)
+- [Released](#released)
+	- [Version 0.0.14 - 0.0.15 - *2021-07-17*](#version-0014---0015---2021-07-17)
+	- [Version 0.0.13 - *2021-02-24*](#version-0013---2021-02-24)
+	- [Version 0.0.10 - 0.0.12 - *2021-02-19*](#version-0010---0012---2021-02-19)
+	- [Version 0.0.9 - *2021-02-01*](#version-009---2021-02-01)
+	- [Version 0.0.8 - *2021-01-31*](#version-008---2021-01-31)
+	- [Version 0.0.7 - *2021-01-31*](#version-007---2021-01-31)
+	- [Version 0.0.6 - *2021-01-31*](#version-006---2021-01-31)
+	- [Version 0.0.5 - *2021-01-31*](#version-005---2021-01-31)
+- [Pre-Releases](#pre-releases)
+	- [Version 0.0.4 - *2021-01-30*](#version-004---2021-01-30)
+	- [Version 0.0.3 [YANKED] - *2021-01-30*](#version-003-yanked---2021-01-30)
+	- [Version 0.0.2 - *2021-01-09*](#version-002---2021-01-09)
+	- [Version 0.0.1 - *2021-01-09*](#version-001---2021-01-09)
 
+## Unreleased
+### Added
+- Files that end with the `.theme` extension are now opened as desktop entries.
+- The `CursorTheme` key was added for *index.theme* files.
+### Changed
+- `[Desktop Entry]` lines are now mapped to `markup.heading` so comments don't make them harder to
+	see.
+- Short arguments (`-l`, `-s`) to commands in the `Exec` key are now highlighted.
+- Typos like writing `Names` instead of `Name` now cause the entire key not to be highlighted,
+	making typos easier to spot.
+- `;` semi-colons are now scoped as `strong` (it's up to the theme to highlight them).
+- Changed the rules for ***%*** arguments in the value of the `Exec` key, they're now scoped to
+	`variable.language`, and they only highligh values allowed by the
+	[specification](https://specifications.freedesktop.org/desktop-entry-spec/latest/ar01s07.html)
+- Changed the textmate scope of freedesktop recognized categories for the `Categories` key. They're
+	now scoped to `markup.bold`.
+### Fixed
+- When you specify the language of keys such as `Name` and `Comment` by using `[]`, you no longer
+	need to type the `=` operator to have syntax highlighting.
+- Removed patterns that weren't useful.
+- The categories recognized by freedesktop are no longer highlighted outside the `Categories` key.
+
+## Released
 ### Version [0.0.14 - 0.0.15](https://gihtub.com/nico-castell/desktop-file-support/releases/tag/0.0.15) - *2021-07-17*
 #### Added
 - Support for missing keys (credit to @Luxcium).
@@ -24,8 +62,6 @@ All significant changes to **Desktop File Support** will be documented here
 #### Changed
 1. Sizing of the icon in the README.
 2. Style of Spock's quote in the README.
-
-## Released
 
 ### Version [0.0.9](https://github.com/nico-castell/desktop-file-support/releases/tag/0.0.9) - *2021-02-01*
 #### Fixed
@@ -50,7 +86,6 @@ This is the first official release of this extension.
 The extension finally has an icon.
 
 ---
-
 ## Pre-Releases
 
 ### Version 0.0.4 - *2021-01-30*

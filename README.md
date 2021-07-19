@@ -20,8 +20,10 @@ like in gedit.
 For the full documentation of *.desktop* files, visit the freedesktop
 [specification](https://specifications.freedesktop.org/desktop-entry-spec/latest/index.html).
 
-<!-- <img width="625" height="440" src="assets/code-screenshot.png" alt="logo"> -->
-<img width="625" height="440" src="https://raw.githubusercontent.com/nico-castell/desktop-file-support/main/assets/code-screenshot.png">
+<!-- <img width="625" height="499" src="assets/code-screenshot.png" alt="logo"> -->
+<img width="625" height="499" src="https://raw.githubusercontent.com/nico-castell/desktop-file-support/main/assets/code-screenshot.png">
+
+- *Theme: Monokai Dark*
 
 ## Theme Index Files
 Additionally, this extension highlights `[X-GNOME-Metetheme]` and it's keys.
@@ -35,10 +37,5 @@ Additionally, this extension highlights `[X-GNOME-Metetheme]` and it's keys.
 2. Extra syntax highlighting for 
 	[Theme Index files](https://people.gnome.org/~shaunm/admin-guide/themes-17.html).
 3. Support for extensions to the format by using `X-`.
-4. Snippet for .desktop files: A standard way to tell gnome to open a new window.
-	```
-	Exec=/usr/share/code/code newwin # expands to:
-	Exec=/usr/share/code/code --no-sandbox --new-window
-	```
-5. Folding regions through the use of `#region` and `#endregion`. This is not officially part of
+4. Folding regions through the use of `#region` and `#endregion`. This is not officially part of
 	the specification, but it should help you.
