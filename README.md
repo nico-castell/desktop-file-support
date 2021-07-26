@@ -26,7 +26,7 @@ For the full documentation of *.desktop* files, visit the freedesktop
 - *Theme: Monokai Dark*
 
 ## Theme Index Files
-Additionally, this extension highlights `[X-GNOME-Metetheme]` and it's keys.
+Additionally, this extension highlights `[X-GNOME-Metatheme]` and it's keys.
 
 <!-- <img width="625" height="303" src="assets/theme-screenshot.png"> -->
 <img width="625" height="303" src="https://raw.githubusercontent.com/nico-castell/desktop-file-support/main/assets/theme-screenshot.png">
