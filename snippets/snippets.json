@@ -162,7 +162,7 @@
 	"A region": {
 		"prefix": "region",
 		"description": "Create a region",
-		"body": "#region\n${1}\n#endregion"
+		"body": "#region\n${TM_SELECTED_TEXT}${0}\n#endregion"
 	},
 	"A key-value pair": {
       "prefix": "key",
