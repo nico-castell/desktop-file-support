@@ -1,4 +1,9 @@
 {
+	"A comment": {
+		"prefix": "#",
+		"description": "Create a comment",
+		"body": "# ${1}"
+	},
 	"A region": {
 		"prefix": "region",
 		"description": "Create a region",
