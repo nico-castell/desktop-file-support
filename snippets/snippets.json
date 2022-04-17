@@ -1,12 +1,172 @@
 {
-	"Start a region": {
-		"prefix": "region",
-		"description": "Start a folding region",
-		"body": "#region"
+	"A desktop entry": {
+		"prefix": "desktop",
+		"description": "Create a [Desktop Entry]",
+		"body": "[Desktop Entry]\nType=${1|Application,Link,Directory|}\nName=${2:value}\n"
 	},
-	"End a region": {
-		"prefix": "endregion",
-		"description": "End a folding region",
-		"body": "#endregion"
-	}
+	"A desktop entry type": {
+		"prefix": "type",
+		"description": "Create a desktop entry `Type`",
+		"body": "Type=${1|Application,Link,Directory|}"
+	},
+	"A desktop entry version": {
+		"prefix": "version",
+		"description": "Create a desktop entry `Version`",
+		"body": "Version=${1:1.0}"
+	},
+	"A desktop entry name": {
+		"prefix": "name",
+		"description": "Create a desktop entry `Name`",
+		"body": "Name=${1:value}"
+	},
+	"A desktop entry name for a specific language": {
+		"prefix": "name[",
+		"description": "Create a desktop entry `Name[...]`",
+		"body": "Name[${1:language}_${2:country}]=${3:value}"
+	},
+	"A desktop entry generic name": {
+		"prefix": "genericname",
+		"description": "Create a desktop entry `GenericName`",
+		"body": "GenericName=${1:value}"
+	},
+	"A desktop entry generic name for a specific language": {
+		"prefix": "genericname[",
+		"description": "Create a desktop entry `GenericName[...]`",
+		"body": "GenericName[${1:language}_${2:country}]=${3:value}"
+	},
+	"Specify whether display application in menus": {
+		"prefix": "nodisplay",
+		"description": "Create a desktop entry `NoDisplay`",
+		"body": "NoDisplay=${1|true,false|}"
+	},
+	"A desktop entry comment": {
+		"prefix": "comment",
+		"description": "Create a desktop entry `Comment`",
+		"body": "Comment=${1:value}"
+	},
+	"A desktop entry comment for a specific language": {
+		"prefix": "comment[",
+		"description": "Create a desktop entry `Comment[...]`",
+		"body": "Comment[${1:language}_${2:country}]=${3:value}"
+	},
+	"A desktop entry icon": {
+		"prefix": "icon",
+		"description": "Create a desktop entry `Icon`",
+		"body": "Icon=${1:/path/to/icon}"
+	},
+	"A desktop entry icon for a specific language": {
+		"prefix": "icon[",
+		"description": "Create a desktop entry `Icon[...]`",
+		"body": "Icon[${1:language}_${2:country}]=${3:/path/to/icon}"
+	},
+	"Specify whether behave as deleted .desktop file": {
+		"prefix": "hidden",
+		"description": "Create a desktop entry `Hidden`",
+		"body": "Hidden=${1|true,false|}"
+	},
+	"A desktop entry desktop environment list it is shown in": {
+		"prefix": "onlyshowin",
+		"description": "Create a desktop entry `OnlyShowIn`",
+		"body": "OnlyShowIn=${1:environment1 environment2 ...}"
+	},
+	"A desktop entry desktop environment list it is not shown in": {
+		"prefix": "notshowin",
+		"description": "Create a desktop entry `NotShowIn`",
+		"body": "NotShowIn=${1:environment1 environment2 ...}"
+	},
+	"Specify whether D-Bus activation is supported for this application": {
+		"prefix": "dbusactivatable",
+		"description": "Create a desktop entry `DBusActivatable`",
+		"body": "DBusActivatable=${1|true,false|}"
+	},
+	"A desktop entry path to determine whether an application is installed": {
+		"prefix": "tryexec",
+		"description": "Create a desktop entry `TryExec`",
+		"body": "TryExec=${1:/path/to/directory}"
+	},
+	"A desktop entry execution command": {
+		"prefix": "exec",
+		"description": "Create a desktop entry `Exec`",
+		"body": "Exec=${1:command}"
+	},
+	"A desktop entry working directory where application runs in": {
+		"prefix": "path",
+		"description": "Create a desktop entry `Path`",
+		"body": "Path=${1:/path/to/directory}"
+	},
+	"Specify whether run application in a terminal window": {
+		"prefix": "terminal",
+		"description": "Create a desktop entry `Terminal`",
+		"body": "Terminal=${1|true,false|}"
+	},
+	"A desktop entry actions": {
+		"prefix": "actions",
+		"description": "Create a desktop entry `Actions`",
+		"body": "Actions=${1:action1 action2 ...}"
+	},
+	"A desktop entry MIME types": {
+		"prefix": "mimetype",
+		"description": "Create a desktop entry `MimeType`",
+		"body": "MimeType=${1:type1 type1 ...}"
+	},
+	"A desktop entry menu categories": {
+		"prefix": "categories",
+		"description": "Create a desktop entry `Categories`",
+		"body": "Categories=${1:category1 category2 ...}"
+	},
+	"A desktop entry implemented interfaces": {
+		"prefix": "implements",
+		"description": "Create a desktop entry `Implements`",
+		"body": "Implements=${1:interface1 interface2 ...}"
+	},
+	"A desktop entry keywords": {
+		"prefix": "keywords",
+		"description": "Create a desktop entry `Keywords`",
+		"body": "Keywords=${1:keyword1 keyword2 ...}"
+	},
+	"A desktop entry keywords for a specific language": {
+		"prefix": "keywords",
+		"description": "Create a desktop entry `Keywords[...]`",
+		"body": "Keywords[${1:language}_${2:country}]=${3:keyword1 keyword2 ...}"
+	},
+	"Specify whether send a 'remove' message when started with the DESKTOP_STARTUP_ID environment variable set": {
+		"prefix": "startupnotify",
+		"description": "Create a desktop entry `StartupNotify`",
+		"body": "StartupNotify=${1|true,false|}"
+	},
+	"A desktop entry startup WM class": {
+		"prefix": "startupwmclass",
+		"description": "Create a desktop entry `StartupWMClass`",
+		"body": "StartupWMClass=${1:value}"
+	},
+	"A desktop entry url": {
+		"prefix": "url",
+		"description": "Create a desktop entry `URL`\nRequired when: Type = Link",
+		"body": "URL=${1:value}"
+	},
+	"Specify whether prefer run on a more powerful discrete GPU if available": {
+		"prefix": "prefersnondefaultgpu",
+		"description": "Create a desktop entry `PrefersNonDefaultGPU`",
+		"body": "PrefersNonDefaultGPU=${1|true,false|}"
+	},
+	"Specify whether application is a single window": {
+		"prefix": "singlemainwindow",
+		"description": "Create a desktop entry `SingleMainWindow`",
+		"body": "SingleMainWindow=${1|true,false|}"
+	},
+	"A comment": {
+		"prefix": "#",
+		"description": "Create a comment",
+		"body": "# ${1}"
+	},
+	"A region": {
+		"prefix": "region",
+		"description": "Create a region",
+		"body": "#region\n${TM_SELECTED_TEXT}${0}\n#endregion"
+	},
+	"A key-value pair": {
+      "prefix": "key",
+      "description": "Create a key-value pair",
+      "body": "${1:key}=${2:value}"
+   }
 }
