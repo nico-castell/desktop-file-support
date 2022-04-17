@@ -1,12 +1,7 @@
 {
-	"Start a region": {
+	"A region": {
 		"prefix": "region",
-		"description": "Start a folding region",
-		"body": "#region"
-	},
-	"End a region": {
-		"prefix": "endregion",
-		"description": "End a folding region",
-		"body": "#endregion"
+		"description": "Create a region",
+		"body": "#region\n${1}\n#endregion"
 	}
 }
