@@ -3,7 +3,8 @@
 All significant changes to **Desktop File Support** will be documented here
 
 - [Released](#released)
-	- [Version 0.0.18 - *2021-07-26*](#version-0018---2021-07-26)
+	- [Version v0.0.19 - *2022-04-17*](#version-v0019---2022-04-17)
+	- [Version 0.0.18 - *2021-07-29*](#version-0018---2021-07-29)
 	- [Version 0.0.17 - *2021-07-19*](#version-0017---2021-07-19)
 	- [Version 0.0.16 - *2021-07-19*](#version-0016---2021-07-19)
 	- [Version 0.0.14 - 0.0.15 - *2021-07-17*](#version-0014---0015---2021-07-17)
@@ -21,6 +22,9 @@ All significant changes to **Desktop File Support** will be documented here
 	- [Version 0.0.1 - *2021-01-09*](#version-001---2021-01-09)
 
 ## Released
+### Version [v0.0.19](https://github.com/nico-castell/desktop-file-support/releases/tag/v0.0.19) - *2022-04-17*
+Added various snippets as a simple way to suggest multiple keys. Credit to @EmilySeville7cfg.
+
 ### Version [0.0.18](https://github.com/nico-castell/desktop-file-support/releases/tag/0.0.18) - *2021-07-29*
 Fixed a typo in the README. Credit to @QWxleA.
 
