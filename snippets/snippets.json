@@ -3,5 +3,50 @@
 		"prefix": "region",
 		"description": "Create a region",
 		"body": "#region\n${1}\n#endregion"
+	},
+	"A desktop entry": {
+		"prefix": "desktop",
+		"description": "Create a [Desktop Entry]",
+		"body": "[Desktop Entry]\n${1}"
+	},
+	"A desktop entry name": {
+		"prefix": "name",
+		"description": "Create a desktop entry `Name`",
+		"body": "Name=${1:value}"
+	},
+	"A desktop entry icon": {
+		"prefix": "icon",
+		"description": "Create a desktop entry `Icon`",
+		"body": "Icon=${1:value}"
+	},
+	"A desktop entry name for a specific language": {
+		"prefix": "name[",
+		"description": "Create a desktop entry `Name[...]`",
+		"body": "Name[${1:language}]=${1:value}"
+	},
+	"A desktop entry icon for a specific language": {
+		"prefix": "icon[",
+		"description": "Create a desktop entry `Icon[...]`",
+		"body": "Icon[${1:language}]=${1:value}"
+	},
+	"A desktop entry version": {
+		"prefix": "version",
+		"description": "Create a desktop entry `Version`",
+		"body": "Version=${1:1.0}"
+	},
+	"A desktop entry type": {
+		"prefix": "type",
+		"description": "Create a desktop entry `Type`",
+		"body": "Version=${1|Application,Link|}"
+	},
+	"Specify whether it is a console application": {
+		"prefix": "terminal",
+		"description": "Create a desktop entry `Terminal`",
+		"body": "Terminal=${1|true,false|}"
+	},
+	"A desktop entry execution command": {
+		"prefix": "exec",
+		"description": "Create a desktop entry `Exec`",
+		"body": "Exec=${1:command}"
 	}
 }
