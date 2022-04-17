@@ -163,5 +163,10 @@
 		"prefix": "region",
 		"description": "Create a region",
 		"body": "#region\n${1}\n#endregion"
-	}
+	},
+	"A key-value pair": {
+      "prefix": "key",
+      "description": "Create a key-value pair",
+      "body": "${1:key}=${2:value}"
+   }
 }
