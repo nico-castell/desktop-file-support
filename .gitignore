@@ -33,3 +33,6 @@ node_modules
 # Ignore the files for the screenshot
 code.desktop
 index.theme
+
+# Ignore compilation result
+out/*
